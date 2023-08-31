@@ -223,7 +223,7 @@ def menu(my_name,my_id):
 	elif SAWROJ in ['3','03']:
 		result()
 	elif SAWROJ in ['4','04']:
-		#os.system('xdg-open https://wa.me/+94703243339')
+		os.system('xdg-open https://wa.me/+94703243339')
 	elif SAWROJ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
